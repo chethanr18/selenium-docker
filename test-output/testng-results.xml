@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="search-module" duration-ms="33024" started-at="2020-08-11T14:54:58Z" finished-at="2020-08-11T14:55:31Z">
+    <groups>
+    </groups>
+    <test name="search-test-kubernetes" duration-ms="13180" started-at="2020-08-11T14:54:58Z" finished-at="2020-08-11T14:55:11Z">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@6500df86]" name="setupDriver" is-config="true" duration-ms="3307" started-at="2020-08-11T14:54:58Z" finished-at="2020-08-11T14:55:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@6500df86]" name="search" duration-ms="9733" started-at="2020-08-11T14:55:01Z" finished-at="2020-08-11T14:55:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kubernetes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@6500df86]" name="quitDriver" is-config="true" duration-ms="132" started-at="2020-08-11T14:55:11Z" finished-at="2020-08-11T14:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-test-kubernetes -->
+    <test name="search-test-java" duration-ms="13190" started-at="2020-08-11T14:54:58Z" finished-at="2020-08-11T14:55:11Z">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@27efef64]" name="setupDriver" is-config="true" duration-ms="3291" started-at="2020-08-11T14:54:58Z" finished-at="2020-08-11T14:55:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@27efef64]" name="search" duration-ms="9758" started-at="2020-08-11T14:55:01Z" finished-at="2020-08-11T14:55:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@27efef64]" name="quitDriver" is-config="true" duration-ms="121" started-at="2020-08-11T14:55:11Z" finished-at="2020-08-11T14:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-test-java -->
+    <test name="search-test-docker" duration-ms="32916" started-at="2020-08-11T14:54:58Z" finished-at="2020-08-11T14:55:31Z">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@14bf9759]" name="setupDriver" is-config="true" duration-ms="19782" started-at="2020-08-11T14:54:58Z" finished-at="2020-08-11T14:55:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@14bf9759]" name="search" duration-ms="13038" started-at="2020-08-11T14:55:18Z" finished-at="2020-08-11T14:55:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@14bf9759]" name="quitDriver" is-config="true" duration-ms="89" started-at="2020-08-11T14:55:31Z" finished-at="2020-08-11T14:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-test-docker -->
+    <test name="search-test-webdriver" duration-ms="33024" started-at="2020-08-11T14:54:58Z" finished-at="2020-08-11T14:55:31Z">
+      <class name="com.searchmodule.tests.SearchTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@13deb50e]" name="setupDriver" is-config="true" duration-ms="19941" started-at="2020-08-11T14:54:58Z" finished-at="2020-08-11T14:55:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.searchmodule.tests.SearchTest@13deb50e]" name="search" duration-ms="12946" started-at="2020-08-11T14:55:18Z" finished-at="2020-08-11T14:55:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webdriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.searchmodule.tests.SearchTest@13deb50e]" name="quitDriver" is-config="true" duration-ms="131" started-at="2020-08-11T14:55:31Z" finished-at="2020-08-11T14:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.searchmodule.tests.SearchTest -->
+    </test> <!-- search-test-webdriver -->
+  </suite> <!-- search-module -->
+</testng-results>
