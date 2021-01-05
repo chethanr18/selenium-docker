@@ -18,7 +18,7 @@ pipeline {
             steps {
 			    withCredentials([usernamePassword(credentialsId: 'chethanr18', passwordVariable: 'chethan-18', usernameVariable: 'chethanr18')]) {
                     //sh
-			        bat "docker login --username=${user} --password=${pass}"
+			        bat "docker login --username=${usernameVariable} --password=${passwordVariable}"
 			        bat "docker push chethanr18/selenium-docker:latest"
 			    }                           
             }
